@@ -14,7 +14,7 @@ A part of a team of 6 students in the Fall semester, working to find relation be
 The collection of the data has been done over the past few years by sending out survey questions to handpicked cyber security veterans and experts in fields on a monthly basis, and storing the data in a csv format. Over-time this posed challenges, as the insights that can be drawn from flat files is limited, as well as the searchability of data is also restricted. It was then collectively decided to move to better way of collecting, aggregating and visualizing this data. The collective plan is to now ship the data in a streamlined basis into a manageable format. This repository documents work done in this area using the ELK stack (Elasticsearch, Logstash , Kibana) and also outlines the plan for the future setup of the data pipeline.
 
 <h3> Collection infrastructure </h3> (planned) for the cyber metrics index is shown below. 
-![alt test](Metrics.PNG)
+![alt test](./Metrics.PNG)
 
 
 
