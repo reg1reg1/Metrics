@@ -18,6 +18,6 @@ The collection of the data has been done over the past few years by sending out 
 
 
 
-##Corelation of different aspects of data
+## Corelation of different aspects of data
 
 
