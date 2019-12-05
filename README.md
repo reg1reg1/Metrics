@@ -140,9 +140,13 @@ The sensitivity share in the sum of all records lost over the past 6 years have 
 
 A hypothesis which I felt could be applied was that "When more sensitive data gets breached, the expert opinion will be more reflective of that". The more the sensitive the breached data, it is more likely that a hardened system or government body might have leaked the data which might worry the experts and sway the opinion towards feeling things getting worse.
 
-The graph below shows the sum of records being split by whether they have a sensitivity of **more than or less than 3**. 
+The graph below shows the **average sum of records** being split by whether they have a sensitivity of **more than or less than 3**. 
 
-![sensitivitysplitby3](sensitivitysplitby3.PNG)
+<img src="sensitivitysplitby3.PNG" alt="sensitivitysplitby3" style="zoom:150%;" />
+
+When the average of total score by year is plotted against average records lost in that year with **high sensitivity**(more than 3), we see that it mimics it to an extent till 2018 which had **an extremely high no of records being lost**. The no of high sensitivity records breached in 2018 was **2.653B**.  It is the point in data where the experts did not reflect it in their opinion. However till 2017 the expert average score seems to mimic the breach data pattern.
+
+<img src="D:\ELK\Metrics\averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
 
 # Enforcing the Survey results
 
