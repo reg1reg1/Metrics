@@ -102,6 +102,20 @@ This is emphasizing the results of the last pie chart. The comparison of  count 
 
 
 
+### Pattern-4: Factors contributing most
+
+The factors which have the highest sum when aggregated (options which people said became worst) is revealed to be "targets" consisting of entities such as (is the  probability of target being attacked  is more or less compared to last month)
+
+1. autonomous network connected devices
+2. counterparties
+3. mobile devices
+4. web facing applications
+5. internet exposed devices
+6. public infra/cloud
+7. end point
+
+<img src="D:\ELK\Metrics\contributors.PNG" alt="contributors" style="zoom:200%;" />
+
 ## Modifying Input Weight/Normalizing
 
 Basing on the fact, that most people's natural instinct in the survey is to go for the worse or static, some of the options were given more weight in terms of influencing the outcome of the survey. However, despite multiple denormalizations, the survey outcome did not reveal anything substantial . The denormalization. The other thing is the count of people voting for a particular option does not change with weight change, and altering the output of survey to look for patterns cannot be proven to be more conclusive because certain patterns were observed.
@@ -148,10 +162,22 @@ When the average of total score by year is plotted against average records lost 
 
 <img src="averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
 
-On a monthly level however, there seems to be indication of suppression which is not reflected in the chart above (which is yearly)![tempsnip](tempsnip.png)
+On a monthly level however, there seems to be indication of suppression which is not reflected in the chart above (which is yearly)
 
-# Enforcing the Survey results
+# Improving the inference strength
+
+During the my work in the metrics project I felt that there are some calculations we must make before we can enforce some of the inferences drawn from the data as being tangible or useful to a greater degree.  These are as  follows:
+
+According to csis.org, the total cybersecurity workforce is around 700k. Assuming this as the population size, the current sample size of 44, the confidence in the results would be 95% with a huge expense in margin of error as 15%.
+
+With better surveying methods, the sample size needs to be increased to strengthen the inferences.
+
+The following is the number of people who filled the survey per year. The average response size over the past few years is at an even lower 30.4
 
 
+
+<img src="D:\ELK\Metrics\surveysamplesize.PNG" alt="surveysamplesize" style="zoom:200%;" />
 
 # Conclusions 
+
+There are some minor patterns and mimics that can be seen as highlighted in the graphs above, but the conclusions can only be reinforced with a better sample size of response. It is clear in some aspects that things have gotten worse (no of average records ) being breached per year and hence the expert opinion seems to show a trend in that direction.
