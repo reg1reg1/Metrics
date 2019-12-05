@@ -110,7 +110,39 @@ Basing on the fact, that most people's natural instinct in the survey is to go f
 
 This is the phase where I compared the survey data with the breach data containing records of events.  In terms of breaches, the amount of data being exposed has maintained an inconsistent pattern. There is not a steady increase in data breaches (setting aside the sensitivity of exposure, and industry affected)
 
-## Breach events statistics between 2004-2019  <img src="D:\ELK\Metrics\breachstats.PNG" alt="breachstats" style="zoom:150%;" />
+## Breach events statistics between 2004-2019  
+
+## <img src="breachstats.PNG" alt="breachstats" style="zoom:150%;" />
+
+The peaks were observed in 2016,2017 and 2018 in terms of documented records being lost, but no representation of the steady increase as the survey results have us believe. The last 5 years have seen an increase in the total no of breaches, and that can explain part of the survey response leaning in on things becoming worse.
+
+Note that since the questions asked are appended with "as compared to last month" , so the score **does not represent the current perceived state** but rather the **perceived increase or decrease**
+
+![breachesbytype](breachesbytype.PNG)
+
+## Breach Share(in terms of sum of records) by industry or sector affected
+
+Most of the breaches that occur are in websites or non-government based organization breaches such as yahoo. In both the no of breaches and the share of major breaches web is the dominant one. One hypothesis is -When websites are hacked , public opinion seems to be influenced as people are concerned when their private data is affected directly. The share is represented below. The first shows the share by count , and the second pie chart shows the share by no of records lost.
+
+![breachpie](D:\ELK\Metrics\breachpie.PNG)
+
+# ![breachpiecount](D:\ELK\Metrics\breachpiecount.PNG)
+
+### Data Sensitivity
+
+The data feed used for  co-relation also has the segregation of different data sources according to sensitivity.  1 being the least sensitive data and 5 being the most sensitive data. When we compare these results , and plot the pie chart for understanding the major factors contributing to breaches
+
+The sensitivity share in the sum of all records lost over the past 6 years have been shown below.
+
+
+
+![sensitivity](sensitivity.PNG)
+
+A hypothesis which I felt could be applied was that "When more sensitive data gets breached, the expert opinion will be more reflective of that". The more the sensitive the breached data, it is more likely that a hardened system or government body might have leaked the data which might worry the experts and sway the opinion towards feeling things getting worse.
+
+The graph below shows the sum of records being split by whether they have a sensitivity of **more than or less than 3**. 
+
+![sensitivitysplitby3](sensitivitysplitby3.PNG)
 
 # Enforcing the Survey results
 
