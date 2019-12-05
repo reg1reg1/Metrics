@@ -148,6 +148,8 @@ When the average of total score by year is plotted against average records lost 
 
 <img src="averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
 
+On a monthly level however, there seems to be indication of suppression which is not reflected in the chart above (which is yearly)![tempsnip](tempsnip.png)
+
 # Enforcing the Survey results
 
 
