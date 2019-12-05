@@ -124,9 +124,9 @@ Note that since the questions asked are appended with "as compared to last month
 
 Most of the breaches that occur are in websites or non-government based organization breaches such as yahoo. In both the no of breaches and the share of major breaches web is the dominant one. One hypothesis is -When websites are hacked , public opinion seems to be influenced as people are concerned when their private data is affected directly. The share is represented below. The first shows the share by count , and the second pie chart shows the share by no of records lost.
 
-![breachpie](D:\ELK\Metrics\breachpie.PNG)
+![breachpie](breachpie.PNG)
 
-# ![breachpiecount](D:\ELK\Metrics\breachpiecount.PNG)
+# ![breachpiecount](breachpiecount.PNG)
 
 ### Data Sensitivity
 
