@@ -176,8 +176,8 @@ The following is the number of people who filled the survey per year. The averag
 
 
 
-<img src="D:\ELK\Metrics\surveysamplesize.PNG" alt="surveysamplesize" style="zoom:200%;" />
+<img src="surveysamplesize.PNG" alt="surveysamplesize" style="zoom:200%;" />
 
 # Conclusions 
 
-There are some minor patterns and mimics that can be seen as highlighted in the graphs above, but the conclusions can only be reinforced with a better sample size of response. It is clear in some aspects that things have gotten worse (no of average records ) being breached per year and hence the expert opinion seems to show a trend in that direction.
+There are some minor patterns and mimics that can be seen as highlighted in the graphs above, but the conclusions can only be reinforced with a better sample size of response. It is clear in some aspects that things have gotten worse (no of average records ) being breached per year and hence the expert opinion seems to show a trend in that direction. There are some analysis which might be revealed in future data, and where the data storage is designed from the get-go to feed the analysis part of it.
