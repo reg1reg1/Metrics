@@ -146,7 +146,7 @@ The graph below shows the **average sum of records** being split by whether they
 
 When the average of total score by year is plotted against average records lost in that year with **high sensitivity**(more than 3), we see that it mimics it to an extent till 2018 which had **an extremely high no of records being lost**. The no of high sensitivity records breached in 2018 was **2.653B**.  It is the point in data where the experts did not reflect it in their opinion. However till 2017 the expert average score seems to mimic the breach data pattern.
 
-<img src="D:\ELK\Metrics\averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
+<img src="averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
 
 # Enforcing the Survey results
 
