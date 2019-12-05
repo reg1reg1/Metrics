@@ -114,7 +114,7 @@ The factors which have the highest sum when aggregated (options which people sai
 6. public infra/cloud
 7. end point
 
-<img src="D:\ELK\Metrics\contributors.PNG" alt="contributors" style="zoom:200%;" />
+![contributors](contributors.PNG)
 
 ## Modifying Input Weight/Normalizing
 
