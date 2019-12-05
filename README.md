@@ -70,22 +70,50 @@ Before, the correlation was done, I spent considerable amount of time trying to 
 
 There could be actors in the data which are causing a weighted shift or bias in the results and if so, attempt was made to isolate these biases.
 
-### Pattern-1: Mathematical Average and Serial Differences
+### Pattern-1: Mathematical Average and Serial Difference of Average
 
-This was done to identify patterns which were not revealed by the normal unmodified data. There was no tangible pattern found or detected by this visualization.
+This was done to identify patterns which were not revealed by the normal unmodified data. The interesting thing is when an average is taken the pattern changes from strictly increasing to a pattern of alternate crests and peaks. The blue represents the average total score, while the green represents the serial difference of the average scores.  However since the question asked is appended by "as compared to last month" , every positive response adds up (cumulatively) while the average shows the scores (isolated per year) falls and rises .
 
 
 
 <img src="avgvsserialdiff.PNG" alt="avgvsserialdiff" style="zoom:150%;" />
 
-## Normalizing or Modifying Input Weights
+### Pattern-2:  5 year summary of people who surveyed as things got better or worse when considering actors
+
+Actors have 5 major split by types which are as follows.
+
+- Insider threat
+- Nation States
+- Strategic Rivals
+- Activists/hacktivists
+- Criminals
+
+Over the years, the count of total survey of actor input scores which added up to negative (indicating things got better) and those which added up to positive scores are compared. They are almost equal in proportion, but the small difference has cumulated over period of months and may be the reason of the  perceived aggravated increase in the opinion of things becoming worse. 
+
+![Pie](Pie.PNG)
+
+### Pattern-3: Year-wise split of people who said things got worse vs people who said things got better.
+
+This is emphasizing the results of the last pie chart. The comparison of  count of people who said things got worse vs people who said things got better. It is evident that the large increase is because yearly a pattern split weighs in the favour of people who said things got worse. The ratio across the years represent a ratio of  count of people saying better to those who said things became worse overall which, is ~ to 1:2.In simple terms for every person who said things got better, 2 people said things got worse. This pattern seems to manifest itself across years . The survey sums up the responses of individuals for the score, and because of the ratio, the score seems to be in favour of things becoming worse cumulatively increasing over the many months of surveys.
 
 
 
-## Co-relation analysis 
-
-## Improvements in Surveying Methodologies
+## <img src="yearwisepeople.PNG" alt="yearwisepeople" style="zoom:150%;" />
 
 
 
-## Conclusions 
+## Modifying Input Weight/Normalizing
+
+Basing on the fact, that most people's natural instinct in the survey is to go for the worse or static, some of the options were given more weight in terms of influencing the outcome of the survey. However, despite multiple denormalizations, the survey outcome did not reveal anything substantial . The denormalization. The other thing is the count of people voting for a particular option does not change with weight change, and altering the output of survey to look for patterns cannot be proven to be more conclusive because certain patterns were observed.
+
+# Co-relation analysis
+
+This is the phase where I compared the survey data with the breach data containing records of events.  In terms of breaches, the amount of data being exposed has maintained an inconsistent pattern. There is not a steady increase in data breaches (setting aside the sensitivity of exposure, and industry affected)
+
+## Breach events statistics between 2004-2019  <img src="D:\ELK\Metrics\breachstats.PNG" alt="breachstats" style="zoom:150%;" />
+
+# Enforcing the Survey results
+
+
+
+# Conclusions 
