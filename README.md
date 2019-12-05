@@ -162,8 +162,6 @@ When the average of total score by year is plotted against average records lost 
 
 <img src="averagebreachvsorig.PNG" alt="averagebreachvsorig" style="zoom:200%;" />
 
-On a monthly level however, there seems to be indication of suppression which is not reflected in the chart above (which is yearly)
-
 # Improving the inference strength
 
 During the my work in the metrics project I felt that there are some calculations we must make before we can enforce some of the inferences drawn from the data as being tangible or useful to a greater degree.  These are as  follows:
