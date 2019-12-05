@@ -9,18 +9,21 @@ NYU's cyber metrics index of expert opinion or "gut feeling" on status of cyber 
 ## Overview
 A part of a team of 6 students in the Fall semester, working to find relation between various aspects of the data collected by survey started 8 years back by Dan Geer and Mukul Pareek. This repository stores the work done by me as part of contributing to the index and improving the data collection process and co-relation 
 
-## Collection
+## Data Collection
 
 The collection of the data has been done over the past few years by sending out survey questions to handpicked cyber security veterans and experts in fields on a monthly basis, and storing the data in a csv format. Over-time this posed challenges, as the insights that can be drawn from flat files is limited, as well as the searchability of data is also restricted. It was then collectively decided to move to better way of collecting, aggregating and visualizing this data. The collective plan is to now ship the data in a streamlined basis into a manageable format. This repository documents work done in this area using the ELK stack (Elasticsearch, Logstash , Kibana) and also outlines the plan for the future setup of the data pipeline.
 
 <h3> Collection infrastructure </h3> 
-For corelation we would be trying to noramlize and denormalize data and compare them with the charts we see in the publically available cyber data. The report is the set of final results or conclusions which will be drawn from this advanced project orguided studies
+For corelation we would be trying to noramlize and denormalize data and compare them with the charts we see in the publically available cyber data. The report is the set of final results or conclusions which will be drawn from this advanced project orguided studies. 
 
 
 ![alt test](arch.png)
 
 
 
-## Corelation of different aspects of data
+### Challenges of Finding Corelation Data
+To be able to corelate public opinion with breach is a challenging task. Finding data sources or metrics that track every breach is a daunting tasks. Many organizations do not want to make this sort of data public and there are some organizations which keep track or maintain this kind of data actively. 
+
+These are the some of the sources that I found feasible for corelation attempts with surveyed data along with their sources.
 
 

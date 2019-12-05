@@ -1,0 +1,22 @@
+#sum_actors
+doc["attackActors.insider_threat"].value+doc["attackActors.nation_states"].value+doc["attackActors.strategic_rivals"].value+doc["attackActors.activist_hacktivist"].value+doc["attackActors.criminals"].value
+
+
+#sum_overallperceptions
+doc["overallPerceptions.false_claims_of_digital_identity"].value+doc["overallPerceptions.media_public_perception"].value+doc["overallPerceptions.personal_risk"].value
+
+#sum_defenses
+doc["defenses.vulnerability_to_known_threats"].value+doc["defenses.vulnerability_to_unknown_threats"].value
+
+
+#sum_targets
+doc["attackTargets.autonomous_network_connected_devices"].value+doc["attackTargets.counterparties"].value+doc["attackTargets.end_points"].value+doc["attackTargets.internet_exposed_devices"].value+doc["attackTargets.mobile_devices"].value + doc["attackTargets.public_infrastructure_or_cloud"].value+doc["attackTargets.web_facing_applications"].value
+
+#sum_effects
+doc["effects.business_disruption"].value+doc["effects.data_modification"].value+doc["effects.data_theft"].value
+
+#sum_weapons
+doc["weapons.botnets"].value+doc["weapons.customized_to_target"].value+doc["weapons.mass_malware"].value+doc["weapons.phishing_social_engineering"].value+doc["weapons.vulnerability"].value
+
+#total
+doc["weapons.botnets"].value+doc["weapons.customized_to_target"].value+doc["weapons.mass_malware"].value+doc["weapons.phishing_social_engineering"].value+doc["weapons.vulnerability"].value+doc["effects.business_disruption"].value+doc["effects.data_modification"].value+doc["effects.data_theft"].value +doc["effects.business_disruption"].value+doc["effects.data_modification"].value+doc["effects.data_theft"].value +doc["attackTargets.autonomous_network_connected_devices"].value+doc["attackTargets.counterparties"].value+doc["attackTargets.end_points"].value+doc["attackTargets.internet_exposed_devices"].value+doc["attackTargets.mobile_devices"].value + doc["attackTargets.public_infrastructure_or_cloud"].value+doc["attackTargets.web_facing_applications"].value +doc["defenses.vulnerability_to_known_threats"].value+doc["defenses.vulnerability_to_unknown_threats"].value +doc["overallPerceptions.false_claims_of_digital_identity"].value+doc["overallPerceptions.media_public_perception"].value+doc["overallPerceptions.personal_risk"].value +doc["attackActors.insider_threat"].value+doc["attackActors.nation_states"].value+doc["attackActors.strategic_rivals"].value+doc["attackActors.activist_hacktivist"].value+doc["attackActors.criminals"].value
